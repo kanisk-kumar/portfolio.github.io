@@ -66,8 +66,7 @@
       .about-head{
         text-align: center; 
       }
-      .fa-graduation-cap{
-
+      .fa-graduation-cap{ 
       }
 
         #myButton {
@@ -89,9 +88,9 @@
         }
 
         .resume-content{  
-        	padding: 0 0 0px 20px;
-  			  border-left: 1px solid black;
-  			}
+          padding: 0 0 0px 20px;
+          border-left: 1px solid black;
+        }
 
         figure img{
           border:solid black 2px;
@@ -99,9 +98,9 @@
         
         @media only screen and (max-width: 600px){
         *{
-        	padding: 0px;
-        	margin: 0px;
-        	box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
         }
 
         .header{
@@ -111,20 +110,20 @@
         background-repeat: no-repeat;
         height: 100vh;
         width: 100%;
-      	}
+        }
 
-      	.header-text{
-      		padding-top: 60%;
+        .header-text{
+          padding-top: 60%;
 
-      	}
+        }
 }
 
 
         @media only screen and (max-width: 1024px){
         *{
-        	padding: 0px;
-        	margin: 0px;
-        	box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
         }
 
         .header{
@@ -134,11 +133,11 @@
         background-repeat: no-repeat;
         height: 100vh;
         width: 100%;
-      	}
+        }
 
-      	.header-text{
-      		padding-top: 50%;
-      	}
+        .header-text{
+          padding-top: 50%;
+        }
 
         .message-card{
           padding: 17%!important;
@@ -246,7 +245,7 @@
        </div>
        
        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
-        <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">	
+        <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true"> 
         <h5 class="text-capitalize "><i class="fas fa-graduation-cap"></i> bahra university</h5>
         <div class="resume-content text-capitalize"><p class="text-muted"><em>I am pursuing master from bahra univesity, affilated from hpu (himachal pradesh university)</em></p></div>
       </div>
@@ -275,11 +274,11 @@
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
             <h5 class="text-capitalize "><i class="fas fa-graduation-cap "></i> holy heart sen. sec. school,nahan</h5>
-        		<div class="resume-content">
-        			<p class="text-muted text-capitalize">
-        				<em>i have completd my higher & secondary study from holy heart school,nahan and scored 6.8 (cgpa out of 10) and 63% respectively.</em></p>
-        		</div>
-      	</div>
+            <div class="resume-content">
+              <p class="text-muted text-capitalize">
+                <em>i have completd my higher & secondary study from holy heart school,nahan and scored 6.8 (cgpa out of 10) and 63% respectively.</em></p>
+            </div>
+        </div>
       </div>
 
 
@@ -354,7 +353,7 @@
 
       <div class="col-10 col-xxl-6 col-xl-6 col-md-6 mx-auto g-3">
         <div class="card contact-card"data-aos="zoom-in-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
-        <div class="container">	
+        <div class="container"> 
           <div class="card-body">
             <h4>Location</h4>
             <p class=""><i class="fas fa-map-marker-alt"></i> Nahan,Sirmaur,IN</p>
@@ -370,13 +369,15 @@
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto g-3">
         <div class="card message-card p-5"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
           <div class="card-body">
+            <form method="post" action="https://formspree.io/f/xqkgwven">
             <div class="row">
+              
               <div class="col-6">
-                <input type="text" class="form-control mb-2" placeholder="Name*" aria-label="First name" required="">
+                <input type="text" class="form-control mb-2" name="name" placeholder="Name*" aria-label="First name" required="">
               </div>
               
               <div class="col-6">
-                <input type="text" class="form-control mb-2" placeholder="Email*" aria-label="Last name" required="">
+                <input type="email" class="form-control mb-2" name="_replyto" placeholder="Email*" aria-label="Last name" required="">
               </div>
   
               <div class="col-12">
@@ -384,11 +385,12 @@
               </div>
   
               <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Message"></textarea>
               </div>
               <div class="d-grid gap-2">
-              <button type="button" class="btn btn-outline-dark"data-bs-toggle="tooltip" data-bs-placement="bottom" title="Send you Response">Send</button>
+              <button type="Submit" value="Send" class="btn btn-outline-dark"data-bs-toggle="tooltip" data-bs-placement="bottom" title="Send you Response">Send</button>
             </div>
+          </form>
             </div>
           </div>
         </div>
