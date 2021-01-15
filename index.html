@@ -67,6 +67,7 @@
         text-align: center; 
       }
       .fa-graduation-cap{ 
+        margin-left:  -10px !important;
       }
 
         #myButton {
@@ -102,7 +103,14 @@
           margin: 0px;
           box-sizing: border-box;
         }
+      .fa-graduation-cap{
+        margin-left:  -30px !important;
 
+      }
+      .resume-content{
+        margin-left: -22px;
+        border-left: 1px solid black;
+      }
         .header{
         background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
         background-attachment:  fixed;
@@ -142,7 +150,7 @@
         .message-card{
           padding: 17%!important;
         }
-}
+      }
 </style>
   </head>
   <body>
@@ -246,7 +254,7 @@
        
        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true"> 
-        <h5 class="text-capitalize "><i class="fas fa-graduation-cap"></i> bahra university</h5>
+        <h5 class="text-capitalize"><i class="fas fa-graduation-cap "></i> bahra university</h5>
         <div class="resume-content text-capitalize"><p class="text-muted"><em>I am pursuing master from bahra univesity, affilated from hpu (himachal pradesh university)</em></p></div>
       </div>
       </div>
@@ -260,7 +268,7 @@
 
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <h5 class="text-capitalize "><i class="fas fa-graduation-cap    "></i> govt. p.g. college,nahan</h5>
+        <h5 class="text-capitalize"><i class="fas fa-graduation-cap"></i> govt. p.g. college,nahan</h5>
         <div class="resume-content"><p class="text-muted text-capitalize"><em>i have completed my graduation in bachelor of computer application from pg college nahan with 6.41 (cgpa out of 10), affilated from hpu (himachal pradesh university)</em></p></div>
       </div>
       </div>
@@ -273,7 +281,7 @@
     </div>
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-            <h5 class="text-capitalize "><i class="fas fa-graduation-cap "></i> holy heart sen. sec. school,nahan</h5>
+            <h5 class="text-capitalize "><i class="fas fa-graduation-cap  "></i> holy heart sen. sec. school,nahan</h5>
             <div class="resume-content">
               <p class="text-muted text-capitalize">
                 <em>i have completd my higher & secondary study from holy heart school,nahan and scored 6.8 (cgpa out of 10) and 63% respectively.</em></p>
@@ -373,18 +381,22 @@
             <div class="row">
               
               <div class="col-6">
+  
                 <input type="text" class="form-control mb-2" name="name" placeholder="Name*" aria-label="First name" required="">
               </div>
               
               <div class="col-6">
+  
                 <input type="email" class="form-control mb-2" name="_replyto" placeholder="Email*" aria-label="Last name" required="">
               </div>
   
               <div class="col-12">
-                <input type="text" class="form-control mb-2" id="inputAddress" placeholder="Subject">
+  
+                <input type="text" class="form-control mb-2" name="subject" id="inputAddress" placeholder="Subject">
               </div>
   
               <div class="mb-3">
+  
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Message"></textarea>
               </div>
               <div class="d-grid gap-2">
