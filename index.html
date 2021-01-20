@@ -16,6 +16,9 @@
     <!--font wesome icon-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
+    <!--font awesome-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
      <!--AOS-->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -31,6 +34,10 @@
         padding: 0px;
         box-sizing: border-box;
         scroll-behavior: smooth;
+      }
+
+      .navbar-brand{
+        font-family: 'Dancing Script', cursive;
       }
 
       .header{
@@ -125,7 +132,17 @@
 
         }
 }
+         @media only screen and (max-width: 1020px) and (orientation: landscape){
+        *{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+        .header-text{
+          padding: 0px!important;
 
+        }
+      }
 
         @media only screen and (max-width: 1024px){
         *{
@@ -151,14 +168,24 @@
           padding: 17%!important;
         }
       }
+
+       @media only screen and (max-width: 1024px){
+        *{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+        .message-card{
+          padding: 11%!important;
+        }
+}
 </style>
   </head>
   <body>
 
     <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand text-uppercase" href="#">Kanishk Kumar
-  </a>
+    <a class="navbar-brand text-uppercase" href="#">Kanishk Kumar</a>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -311,15 +338,15 @@
       </div>
       </div>
     
+    <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
     <h5 class="text-uppercase">css</h5>
-      <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
       <div class="progress my-3">
         <div class="progress-bar  progress-bar-striped bg-dark" style="width:90%">90%</div>
       </div>
       </div>
 
-      <h5 class="text-uppercase">bootstap</h5>
       <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">bootstap</h5>
         <div class="progress my-3">
         <div class="progress-bar progress-bar-striped  bg-dark" style="width:90%">90%</div>
       </div>
@@ -327,22 +354,23 @@
     </div>
 
       <div class="col-10 col-xl-6 col-xxl-6 col-md-6 mx-auto gx-5">
-        <h5 class="text-uppercase">javascript</h5>
+        
         <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+        <h5 class="text-uppercase">javascript</h5>
         <div class="progress my-3">
         <div class="progress-bar progress-bar-striped  bg-dark" style="width:40%">40%</div>
       </div>
       </div>
 
-      <h5 class="text-uppercase">php</h5>
       <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">php</h5>
         <div class="progress my-3">
         <div class="progress-bar progress-bar-striped  bg-dark" style="width:50%">40%</div>
       </div>
       </div>
 
-      <h5 class="text-uppercase">mysql</h5>
       <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">mysql</h5>
         <div class="progress my-3">
         <div class="progress-bar progress-bar-striped  bg-dark" style="width:50%">50%</div>
       </div>
