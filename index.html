@@ -4,26 +4,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
     <!--animate.css-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--font wesome icon-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-
-
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
      <!--AOS-->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-
     <!--title image-->
     <link rel="icon" href="title.png" type="image/icon type">
-
     <title>Kanishk kumar</title>
     <style type="text/css">
       *{
@@ -33,10 +27,15 @@
         scroll-behavior: smooth;
       }
 
+      .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+      }
+
       .header{
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
         background-position: center;
         background-attachment:  fixed;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         position: relative;
         height: 100vh;
@@ -51,11 +50,9 @@
         padding: 10%;
         text-align: center;
       }
-
       .scroll-down{
         color: white;
       }
-
       .contact-card{
         box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
         padding :50px;
@@ -66,10 +63,9 @@
       .about-head{
         text-align: center; 
       }
-      .fa-graduation-cap{
-
+      .fa-graduation-cap{ 
+        margin-left:  -10px !important;
       }
-
         #myButton {
           display: none; /* Hidden by default */
           position: fixed; /* Fixed/sticky position */
@@ -89,9 +85,9 @@
         }
 
         .resume-content{  
-        	padding: 0 0 0px 20px;
-  			  border-left: 1px solid black;
-  			}
+          padding: 0 0 0px 20px;
+          border-left: 1px solid black;
+        }
 
         figure img{
           border:solid black 2px;
@@ -99,77 +95,129 @@
         
         @media only screen and (max-width: 600px){
         *{
-        	padding: 0px;
-        	margin: 0px;
-        	box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
         }
+      .fa-graduation-cap{
+        margin-left:  -30px !important;
 
+      }
+      .resume-content{
+        margin-left: -22px;
+        border-left: 1px solid black;
+      }
         .header{
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
         background-attachment:  fixed;
         background-position: center; 
         background-repeat: no-repeat;
+        background-size: auto;
         height: 100vh;
         width: 100%;
-      	}
+        }
 
-      	.header-text{
-      		padding-top: 60%;
+        .header-text{
+          padding-top: 60%;
 
-      	}
+        }
+        .contact-card{
+          font-size: 0.9rem !important;
+          
+        }
+
 }
+         @media only screen and (max-width: 1020px) and (orientation: landscape){
+        *{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
 
+        .header-text{
+          padding: 0px!important;
+        }
+        .contact-card{
+          padding: 12%!important;
 
+        }
+      }
+      @media only screen and (max-width: 1000px) and (orientation: landscape){
+        *{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+
+        .header-text{
+          padding: 10%!important;
+        }
+        .contact-card{
+          padding: 12%!important;
+
+        }
+      }
         @media only screen and (max-width: 1024px){
         *{
-        	padding: 0px;
-        	margin: 0px;
-        	box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
         }
 
         .header{
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
         background-attachment:  fixed;
         background-position: center; 
         background-repeat: no-repeat;
+        
         height: 100vh;
         width: 100%;
-      	}
+        }
 
-      	.header-text{
-      		padding-top: 50%;
-      	}
+        .header-text{
+          padding-top: 50%;
+        }
 
         .message-card{
           padding: 17%!important;
+        }
+      }
+
+       @media only screen and (max-width: 1024px){
+        *{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+        .message-card{
+          padding: 11%!important;
         }
 }
 </style>
   </head>
   <body>
 
-    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand text-uppercase" href="#">Kanishk Kumar
-  </a>
+    <a class="navbar-brand text-uppercase" href="#">Kanishk Kumar</a>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-lg-0">
-        <li class="nav-item mx-auto">
+        <li class="nav-item">
           <a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item mx-auto">
+        <li class="nav-item">
           <a class="nav-link text-uppercase" href="#about">About</a>
         </li>
 
-        <li class="nav-item mx-auto">
+        <li class="nav-item">
           <a class="nav-link text-uppercase" href="#resume">Resume</a>
         </li>
         
-        <li class="nav-item mx-auto">
+        <li class="nav-item">
           <a class="nav-link text-uppercase" href="#contact">Contact</a>
         </li>
     </ul>
@@ -241,13 +289,13 @@
        <div data-aos="slide-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
         
          <h5 class="text-capitalize"><b>master of computer application</b></h5>
-         <p class="text-muted">2019-Present</p>
+         <p class="text-muted">(2019-Present)</p>
        </div>
        </div>
        
        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
-        <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">	
-        <h5 class="text-capitalize "><i class="fas fa-graduation-cap"></i> bahra university</h5>
+        <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true"> 
+        <h5 class="text-capitalize"><i class="fas fa-graduation-cap "></i> bahra university</h5>
         <div class="resume-content text-capitalize"><p class="text-muted"><em>I am pursuing master from bahra univesity, affilated from hpu (himachal pradesh university)</em></p></div>
       </div>
       </div>
@@ -255,13 +303,13 @@
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
         <h5 class="text-capitalize"><b>bachelor of computer application</b></h5>
-        <p class="text-muted">2016-2019</p>
+        <p class="text-muted">(2016-2019)</p>
       </div>
       </div>
 
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <h5 class="text-capitalize "><i class="fas fa-graduation-cap    "></i> govt. p.g. college,nahan</h5>
+        <h5 class="text-capitalize"><i class="fas fa-graduation-cap"></i> govt. p.g. college,nahan</h5>
         <div class="resume-content"><p class="text-muted text-capitalize"><em>i have completed my graduation in bachelor of computer application from pg college nahan with 6.41 (cgpa out of 10), affilated from hpu (himachal pradesh university)</em></p></div>
       </div>
       </div>
@@ -269,19 +317,18 @@
        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
       <div data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
         <h5 class="text-capitalize"><b>Higher & Secondary Schooling</b></h5>
-        <p class="text-muted">2014-2016</p>
+        <p class="text-muted">(2014-2016)</p>
       </div>
     </div>
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-            <h5 class="text-capitalize "><i class="fas fa-graduation-cap "></i> holy heart sen. sec. school,nahan</h5>
-        		<div class="resume-content">
-        			<p class="text-muted text-capitalize">
-        				<em>i have completd my higher & secondary study from holy heart school,nahan and scored 6.8 (cgpa out of 10) and 63% respectively.</em></p>
-        		</div>
-      	</div>
+            <h5 class="text-capitalize "><i class="fas fa-graduation-cap  "></i> holy heart sen. sec. school,nahan</h5>
+            <div class="resume-content">
+              <p class="text-muted text-capitalize">
+                <em>i have completd my higher & secondary study from holy heart school,nahan and scored 6.8 (cgpa out of 10) and 63% respectively.</em></p>
+            </div>
+        </div>
       </div>
-
 
     </div>
   </div>
@@ -300,44 +347,45 @@
     <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
     <h5 class="text-uppercase">html</h5>
       <div class="progress my-3">
-        <div class="progress-bar  progress-bar-striped bg-dark" style="width:90%">90%</div>
+        <div class="progress-bar  progress-bar-striped progress-bar-animated bg-dark" style="width:90%">90%</div>
       </div>
       </div>
     
+    <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
     <h5 class="text-uppercase">css</h5>
-      <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
       <div class="progress my-3">
-        <div class="progress-bar  progress-bar-striped bg-dark" style="width:90%">90%</div>
+        <div class="progress-bar  progress-bar-striped progress-bar-animated bg-dark" style="width:90%">90%</div>
       </div>
       </div>
 
-      <h5 class="text-uppercase">bootstap</h5>
       <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">Bootstrap</h5>
         <div class="progress my-3">
-        <div class="progress-bar progress-bar-striped  bg-dark" style="width:90%">90%</div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:90%">90%</div>
       </div>
       </div>
     </div>
 
       <div class="col-10 col-xl-6 col-xxl-6 col-md-6 mx-auto gx-5">
-        <h5 class="text-uppercase">javascript</h5>
+        
         <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+        <h5 class="text-uppercase">javascript</h5>
         <div class="progress my-3">
-        <div class="progress-bar progress-bar-striped  bg-dark" style="width:40%">40%</div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">40%</div>
       </div>
       </div>
 
-      <h5 class="text-uppercase">php</h5>
       <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">php</h5>
         <div class="progress my-3">
-        <div class="progress-bar progress-bar-striped  bg-dark" style="width:50%">40%</div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:50%">40%</div>
       </div>
       </div>
 
-      <h5 class="text-uppercase">mysql</h5>
       <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">mysql</h5>
         <div class="progress my-3">
-        <div class="progress-bar progress-bar-striped  bg-dark" style="width:50%">50%</div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:50%">50%</div>
       </div>
       </div>
   </div>
@@ -345,7 +393,47 @@
 
 </div>
 </section>
+<!--count up-->
+<section class="my-5 bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-10 col-md-4 col-xl-2 col-xxl-2 mx-auto">
+        <div>
+        <p class=" text-center mt-5"><i class="fas fa-project-diagram fa-2x"></i><br></p>
+        <h2 class="text-center counter">3</h2>
+        <p class="text-center mb-5">Project's</p>
+      </div>
+      </div>
 
+      <div class="col-10 col-md-2 col-xl-2 col-xxl-2 mx-auto">
+        <div>
+        <p class=" text-center mt-5"><i class="far fa-lightbulb fa-2x"></i><br></p>
+        <h2 class="text-center counter">1000</h2>
+        <p class="text-center mb-5">Idea's</p>
+      </div>
+      </div>
+
+      <div class="col-10 col-md-2 col-xl-2 col-xxl-2 mx-auto">
+       <div>
+        <p class=" text-center mt-5"><i class="fas fa-laptop-code fa-2x"></i><br></p>
+        <h2 class="text-center counter">10</h2>
+        <p class="text-center mb-5">Coding<br>Language's</p>
+      </div>
+      </div>
+
+      <div class="col-10 col-md-2 col-xl-2 col-xxl-2 mx-auto">
+        <div>
+        <p class=" text-center mt-5"><i class="far fa-clock fa-2x"></i></p>
+        <h2 class="text-center counter">23</h2>
+        <p class="text-center mb-5">Age</p>
+
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 <!--contact-->
 <section id="contact" >
   <div class="container">
@@ -354,12 +442,12 @@
 
       <div class="col-10 col-xxl-6 col-xl-6 col-md-6 mx-auto g-3">
         <div class="card contact-card"data-aos="zoom-in-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
-        <div class="container">	
+        <div class="container"> 
           <div class="card-body">
             <h4>Location</h4>
             <p class=""><i class="fas fa-map-marker-alt"></i> Nahan,Sirmaur,IN</p>
             <h4>Email</h4>
-            <p class=""><i class="fas fa-envelope"></i> skanishk88@gmail.com</p>
+            <p class=""><i class="fas fa-envelope"></i> skanishk885@gmail.com</p>
             <h4>Call</h4>
             <p class=""><i class="fas fa-phone-alt"></i> +91 8219918486</p>
             </div>
@@ -370,25 +458,32 @@
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto g-3">
         <div class="card message-card p-5"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
           <div class="card-body">
+            <form method="post" action="https://formspree.io/f/xqkgwven">
             <div class="row">
+              
               <div class="col-6">
-                <input type="text" class="form-control mb-2" placeholder="Name*" aria-label="First name" required="">
+  
+                <input type="text" class="form-control mb-2" name="name" placeholder="Name*" aria-label="First name" required="">
               </div>
               
               <div class="col-6">
-                <input type="text" class="form-control mb-2" placeholder="Email*" aria-label="Last name" required="">
+  
+                <input type="email" class="form-control mb-2" name="_replyto" placeholder="Email*" aria-label="Last name" required="">
               </div>
   
               <div class="col-12">
-                <input type="text" class="form-control mb-2" id="inputAddress" placeholder="Subject">
+  
+                <input type="text" class="form-control mb-2" name="subject" id="inputAddress" placeholder="Subject">
               </div>
   
               <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+  
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Message"></textarea>
               </div>
               <div class="d-grid gap-2">
-              <button type="button" class="btn btn-outline-dark"data-bs-toggle="tooltip" data-bs-placement="bottom" title="Send you Response">Send</button>
+              <button type="Submit" value="Send" class="btn btn-outline-dark"data-bs-toggle="tooltip" data-bs-placement="bottom" title="Send you Response">Send</button>
             </div>
+          </form>
             </div>
           </div>
         </div>
@@ -409,7 +504,7 @@
   <!-- Copyright -->
   <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
     © 2020 Copyright:
-    <a class="text-white" href="">MDBootstrap.com</a>
+    <a class="text-white" href="">MyPortfolio.com</a>
   </div>
   <!-- Copyright -->
 </footer>
@@ -423,7 +518,7 @@
     backSpeed: 50,
       loop :true
 });
-    </script>
+</script>
 
 
 <!--AOS-->
@@ -457,7 +552,17 @@ function topFunction() {
 }
 </script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
 
+<script type="text/javascript">
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000,
+    triggerOnce:true
+});
+</script>
 
 
    <!-- Optional JavaScript; choose one of the two! -->
