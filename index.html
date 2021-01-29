@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
   <html lang="en">
     <head>
       <!-- Required meta tags -->
@@ -92,6 +92,13 @@
           figure img{
             border:solid black 2px;
           }
+          .counterup-bg{
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(counterup.jpg);
+            background-position: center;
+            background-size: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+          }
           
           @media only screen and (max-width: 600px){
           *{
@@ -113,7 +120,7 @@
           background-position: center; 
           background-repeat: no-repeat;
           background-size: auto;
-          height: 100vh;
+          height: 100% 100%;
           width: 100%;
           }
 
@@ -124,6 +131,13 @@
           .contact-card{
             font-size: 0.9rem !important;
             
+          }
+          .counterup-bg{
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(counterup.jpg);
+            background-position: center;
+            background-size: 100vh;
+            background-attachment: fixed;
+            background-repeat: repeat;
           }
 
   }
@@ -394,7 +408,7 @@
   </div>
   </section>
   <!--count up-->
-  <section class="my-5 bg-dark text-white">
+  <section class="my-5 counterup-bg text-white">
     <div class="container">
       <div class="row">
         
