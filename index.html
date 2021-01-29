@@ -32,9 +32,10 @@
       }
 
       .header{
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
         background-position: center;
         background-attachment:  fixed;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         position: relative;
         height: 100vh;
@@ -107,10 +108,11 @@
         border-left: 1px solid black;
       }
         .header{
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
         background-attachment:  fixed;
         background-position: center; 
         background-repeat: no-repeat;
+        background-size: auto;
         height: 100vh;
         width: 100%;
         }
@@ -131,8 +133,24 @@
           margin: 0px;
           box-sizing: border-box;
         }
+
         .header-text{
           padding: 0px!important;
+        }
+        .contact-card{
+          padding: 12%!important;
+
+        }
+      }
+      @media only screen and (max-width: 1000px) and (orientation: landscape){
+        *{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+
+        .header-text{
+          padding: 10%!important;
         }
         .contact-card{
           padding: 12%!important;
@@ -147,10 +165,11 @@
         }
 
         .header{
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
         background-attachment:  fixed;
         background-position: center; 
         background-repeat: no-repeat;
+        
         height: 100vh;
         width: 100%;
         }
@@ -270,7 +289,7 @@
        <div data-aos="slide-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
         
          <h5 class="text-capitalize"><b>master of computer application</b></h5>
-         <p class="text-muted">2019-Present</p>
+         <p class="text-muted">(2019-Present)</p>
        </div>
        </div>
        
@@ -284,7 +303,7 @@
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
         <div data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
         <h5 class="text-capitalize"><b>bachelor of computer application</b></h5>
-        <p class="text-muted">2016-2019</p>
+        <p class="text-muted">(2016-2019)</p>
       </div>
       </div>
 
@@ -298,7 +317,7 @@
        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
       <div data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
         <h5 class="text-capitalize"><b>Higher & Secondary Schooling</b></h5>
-        <p class="text-muted">2014-2016</p>
+        <p class="text-muted">(2014-2016)</p>
       </div>
     </div>
       <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
@@ -485,7 +504,7 @@
   <!-- Copyright -->
   <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
     © 2020 Copyright:
-    <a class="text-white" href="">MDBootstrap.com</a>
+    <a class="text-white" href="">MyPortfolio.com</a>
   </div>
   <!-- Copyright -->
 </footer>
