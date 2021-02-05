@@ -10,8 +10,6 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
       <!--font wesome icon-->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-      <!--google font-->
-      <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
        <!--AOS-->
        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -26,15 +24,10 @@
           box-sizing: border-box;
           scroll-behavior: smooth;
         }
-
-        .navbar-brand{
-          font-family: 'Dancing Script', cursive;
-        }
         .fixed-top.scrolled {
           background-color: black !important;
           transition: background-color 200ms linear;
       }
-
         .header{
           background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
           background-position: center;
@@ -103,11 +96,6 @@
           }
           
           @media only screen and (max-width: 600px){
-          *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-          }
         .fa-graduation-cap{
           margin-left:  -30px !important;
 
@@ -118,7 +106,6 @@
         }
           .header{
           background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
-          background-attachment:  fixed;
           background-position: center; 
           background-repeat: no-repeat;
           background-size: auto;
@@ -137,12 +124,6 @@
  
   }
            @media only screen and (max-width: 1020px) and (orientation: landscape){
-          *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-          }
-
           .header-text{
             padding: 0px!important;
           }
@@ -152,12 +133,6 @@
           }
         }
         @media only screen and (max-width: 1000px) and (orientation: landscape){
-          *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-          }
-
           .header-text{
             padding: 10%!important;
           }
@@ -167,18 +142,10 @@
           }
         }
           @media only screen and (max-width: 1024px){
-          *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-          }
-
           .header{
           background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
-          background-attachment:  fixed;
           background-position: center; 
           background-repeat: no-repeat;
-          
           height: 100vh;
           width: 100%;
           }
@@ -208,13 +175,13 @@
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
     <div class="container">
-      <a class="navbar-brand text-uppercase" href="#">Kanishk Kumar</a>
+      <a class="navbar-brand text-uppercase" href="#"></a>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-lg-0">
           <li class="nav-item">
             <a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
           </li>
@@ -234,9 +201,7 @@
       </div>
     </div>
   </nav>
-
-
-  <!---------------------header------------------------------------------------------------------------------------------>
+<!---------------------header------------------------------------------------------------------------------------------>
   <div class="header" id="home">
    <div class="header-text">
     <h1 class="text-capitalize mx-auto text-white display-1 animate__animated animate__rubberBand">welcome to my portfolio</h1>
@@ -247,8 +212,7 @@
     
   </div>
 
-  <!--about me-->
-
+<!--about me-->
   <section id="about">
         <div class="container py-5">
           <div class="">
@@ -260,7 +224,7 @@
           <div class="row">
           <div class="col-10 col-md-4 col-xl-4 col-xxl-4 mx-auto ">
             <ul><li>
-            <figure data-aos="zoom-in" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+            <figure data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
               <img src="image.png" class="img-fluid mx-auto" style="width: 250px;" alt="">
             </figure></li></ul>
           </div>
@@ -286,8 +250,7 @@
           </div>
         </div>
       </section><!-- End About Section -->
-
-  <!--resume-->
+<!--resume-->
   <section id="resume" class="bg-light ">
     <div class="container resume p-5">
       <h3 class="text-uppercase text-center mb-5"><b>resume</b></h3>
@@ -338,15 +301,14 @@
               </div>
           </div>
         </div>
-
+    <div class="container py-3 mx-auto">
+    <a class="btn btn-outline-dark btn-lg" href="resume.pdf" target="-"style="text-decoration: none;">Download Resume</a>
+  </div>
       </div>
     </div>
-    <div class="container py-3">
-    <a class="btn btn-outline-dark btn-lg mx-auto" href="js.pdf" target="-"style="text-decoration: none;">Download Resume</a>
-  </div>
-  </section>
 
-  <!--skills-->
+  </section>
+<!--skills-->
   <section id="">
     <div class="container">
       <h3 class="text-capitalize display-6 mt-3">skill's</h3><hr class="w-25">
@@ -501,8 +463,7 @@
       </div>
     </div>
   </section>
-  <br>
-
+  <br>S
   <!--scroll top button-->
   <div class="scroll-top">
     <i class='fas fa-chevron-circle-up mx-5 float-right'style="font-size:40px;" id="myButton" onclick="topFunction()"></i>
@@ -513,7 +474,7 @@
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2020 Copyright:
-      <a class="text-white" href="">MyPortfolio.com</a>
+      <a class="text-white" href=""><em>MyPortfolio.com</em></a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -528,9 +489,7 @@
         loop :true
   });
   </script>
-
-
-  <!--AOS-->
+<!--AOS-->
    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript">
         AOS.init({
@@ -538,8 +497,7 @@
            easing: 'ease'
         });
     </script>
-
-    <!-------------------------------------------------------------------------top scroll button---------------------------------------------------------------->
+<!-------------------------------------------------------------------------top scroll button---------------------------------------------------------------->
   <script type="text/javascript">
     mybutton = document.getElementById("myButton");
 
