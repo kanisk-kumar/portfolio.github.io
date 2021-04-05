@@ -14,6 +14,8 @@
        <!--AOS-->
        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--title image-->
       <link rel="icon" href="title.png" type="image/icon type">
       <title>Kanishk kumar</title>
@@ -36,6 +38,7 @@
           position: relative;
           height: 100vh;
           width: 100%;
+          z-index: 100;
         }
 
         li {
@@ -97,6 +100,57 @@
             background-size: 100% 100%;
             background-attachment: fixed;
           }
+
+          /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+  background-color: white !important;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: black!important;
+  color: white !important
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
           
           @media only screen and (max-width: 600px){
         .fa-graduation-cap{
@@ -173,6 +227,9 @@
           }
           .message-card{
             padding: 10%!important;
+          }
+          footer{
+            background-color: black!important;
           }
   }
   </style>
@@ -468,13 +525,21 @@
     </div>
   </section>
   <br>
+
+  <!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/kanishk.sharma.5095" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://github.com/kanisk-kumar" class="google"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/kanishk-kumar-bbb3581b7/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/__kanishk97__/" class="youtube"><i class="fa fa-instagram"></i></a>
+</div>
   <!--scroll top button-->
   <div class="scroll-top">
     <i class='fas fa-chevron-circle-up mx-5 float-right'style="font-size:40px;" id="myButton" onclick="topFunction()"></i>
   </div>
 
   <!--footer-->
-  <footer class="bg-dark text-center text-lg-start">
+  <footer class="text-center text-lg-start">
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2020 Copyright:
