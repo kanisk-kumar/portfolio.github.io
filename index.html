@@ -248,6 +248,10 @@
             background-color: black!important;
           }
   }
+
+  .navbar-black{
+    background-color: black !important;
+}
   </style>
     </head>
     <body>
@@ -661,6 +665,12 @@
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+</script>
+
+<script type="text/javascript">
+  $(".navbar-toggler").click(function(){
+$("nav").toggleClass("navbar-black");
+})
 </script>
 
      <!-- Optional JavaScript; choose one of the two! -->
