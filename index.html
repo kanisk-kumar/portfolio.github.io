@@ -1,14 +1,12 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-         <!--animate.css-->
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <!--animate.css-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
       <!--font wesome icon-->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -17,22 +15,24 @@
        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--title image-->
-      <link rel="icon" href="logo.png" type="image/icon type">
-    <title class="text-capitalize">arihant international school,nahan</title>
-  </head>
-<style type="text/css">
-*{
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-}
-
-    .header{
-          background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(about.jpg);
-          clip-path: polygon(100% 0%, 100% 77%,50% 100%,0 75% ,0 0);
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--title image-->
+      <link rel="icon" href="title.png" type="image/icon type">
+      <title>Kanishk kumar</title>
+      <style type="text/css">
+        *{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+          scroll-behavior: smooth;
+        }
+        .fixed-top.scrolled {
+          background-color: black !important;
+          transition: background-color 800ms linear;
+          opacity: 100%;
+      }
+        .header{
+          background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
           background-position: center;
           background-size: 100% 100%;
           background-repeat: no-repeat;
@@ -42,45 +42,38 @@
           z-index: 100;
         }
 
-.header-text{
-  padding-top: 10%;
-}
-     .gallery-image{
-        height: 50vh;
-        width: 100vw; 
-        transform: scale(0.95);
-        transition: transform 0.7s , opacity 0.7s;
-        overflow: hidden;
-      }
+        li {
+          list-style: none;
+        }
 
-      .gallery-image:hover{
-        cursor: pointer;
-        transform: scale(1);
-        opacity: 1;
-      }
-.bg-counter{
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(about.jpg);
-  background-position: fixed;
-  background-position: center;
-}
-.fixed-top.scrolled {
-          background-color: black !important;
-          transition: background-color 200ms linear;
-          opacity: 100%;
-}
-
-  .contact-card{
+        .header-text{
+          padding: 10%;
+          text-align: center;
+        }
+        .scroll-down{
+          color: white;
+        }
+        .contact-card{
           box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
           padding :50px;
         }
- .message-card{
+        .message-card{
           box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-          padding :53px;
         }
+        .about-head{
+          text-align: center; 
+        }
+        .fa-graduation-cap{ 
+          margin-left:  -10px !important;
+        }
+        .fa-briefcase{
+           margin-left:  -10px !important;
+        }
+
           #myButton {
             display: none; /* Hidden by default */
             position: fixed; /* Fixed/sticky position */
-            bottom: 85px; /* Place the button at the bottom of the page */
+            bottom: 60px; /* Place the button at the bottom of the page */
             right: 30px; /* Place the button 30px from the right */
             z-index: 99; /* Make sure it does not overlap */
             border: none; /* Remove borders */
@@ -95,105 +88,48 @@
           transform: translateY(-30%);
           transition: 0.8s linear;
           cursor: pointer;
-          } 
-footer{
-  background-color: black;
-}
- @media only screen and (max-width: 600px){
-.contact-card{
-font-size: 0.6rem !important;
-}
-}
-
-          
-          @media only screen and (max-width: 600px){
-
-          .header{
-          background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(about.jpg);
-          background-position: center; 
-          background-repeat: no-repeat;
-          position: relative;
-          height: 100% 100%;
-          width: 100%;
           }
 
-          .header-text{
-            padding-top: 60%;
-
-          }
-          .contact-card{
-            font-size: 0.6rem !important;
-            
-          }
- 
-  }
-           @media only screen and (max-width: 1020px) and (orientation: landscape){
-          .header-text{
-            padding: 0px!important;
-          }
-          .contact-card{
-            padding: 12%!important;
-
-          }
-        }
-        @media only screen and (max-width: 1000px) and (orientation: landscape){
-          .header-text{
-            padding: 10%!important;
-          }
-          .contact-card{
-            padding: 12%!important;
-
-          }
-        }
-          @media only screen and (max-width: 1024px){
-          .header{
-          background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(about.jpg);
-          background-position: center; 
-          background-repeat: no-repeat;
-          height: 100vh;
-          width: 100%;
+          .resume-content{  
+            padding: 0 0 0px 20px;
+            border-left: 1px solid black;
           }
 
-          .header-text{
-            padding-top: 50%;
+          figure img{
+            border:solid black 2px;
+          }
+          .counterup-bg{
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(counterup.jpg);
+            background-position: center;
+            background-size: 100% 100%;
+            background-attachment: fixed;
           }
 
-          .message-card{
-            padding: 17%!important;
-          }
-        }
-
-         @media only screen and (max-width: 1366px){
-          *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-          }
-          .message-card{
-            padding: 10%!important;
-          }
-  }
-
-  .icon-bar {
+          /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
   position: fixed;
   top: 50%;
-  right:0.8%;
+  right: 1%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
+/* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
+  color: black;
+  background-color: white !important;
   font-size: 20px;
 }
 
+/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: black!important;
+  color: white !important
 }
 
 .facebook {
@@ -220,155 +156,346 @@ font-size: 0.6rem !important;
   background: #bb0000;
   color: white;
 }
+          
+          @media only screen and (max-width: 600px){
+        .fa-graduation-cap{
+          margin-left:  -30px !important;
 
-.content {
-  margin-left: 75px;
-  font-size: 30px;
-}
-/*navbar change color when click on toggle button*/
-.navbar-black{
+        }
+        .resume-content{
+          margin-left: -22px;
+          border-left: 1px solid black;
+        }
+        .resume-button{
+          text-align: center;
+        }
+          .header{
+          background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
+          background-position: center; 
+          background-repeat: no-repeat;
+          background-size: auto;
+          height: 100% 100%;
+          width: 100%;
+          }
+
+          .header-text{
+            padding-top: 60%;
+
+          }
+          .contact-card{
+            font-size: 0.6rem !important;
+            
+          }
+          .fa-briefcase{
+           margin-left:  -30px !important;
+        }
+ 
+  }
+           @media only screen and (max-width: 1020px) and (orientation: landscape){
+          .header-text{
+            padding: 0px!important;
+          }
+          .contact-card{
+            padding: 12%!important;
+
+          }
+          .fa-briefcase{
+           margin-left:  -10px !important;
+        }
+        }
+        @media only screen and (max-width: 1000px) and (orientation: landscape){
+          .header-text{
+            padding: 10%!important;
+          }
+          .contact-card{
+            padding: 12%!important;
+
+          }
+          .fa-briefcase{
+           margin-left:  -10px !important;
+        }
+        }
+          @media only screen and (max-width: 1024px){
+          .header{
+          background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
+          background-position: center; 
+          background-repeat: no-repeat;
+          height: 100vh;
+          width: 100%;
+          }
+          .fa-briefcase{
+           margin-left:  -10px !important;
+        }
+
+          .header-text{
+            padding-top: 50%;
+          }
+
+          .message-card{
+            padding: 17%!important;
+          }
+        }
+
+         @media only screen and (max-width: 1366px){
+          *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+          }
+          .message-card{
+            padding: 10%!important;
+          }
+          footer{
+            background-color: black!important;
+          }
+  }
+
+  .navbar-black{
     background-color: black !important;
+    transition: background-color 800ms linear;
+    opacity: 100%;
 }
+  </style>
+    </head>
+    <body>
 
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container">
+      <a class="navbar-brand text-uppercase" href="#"><strong>Kanishk Kumar</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#about">About</a>
+          </li>
 
-</style>
-
-  <body>
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-    <img src="logo.png" width="100" height="70" alt="">
-  </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto text-capitalize">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">about us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#gallery">gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-      <li class="nav-item">
-          <a class="nav-link" href="#">Download</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">contact us</a>
-        </li>
-      </ul>      
-      <ul class="navbar-nav ms-auto text-capitalize">
-        <li class="nav-item">
-          <a class="nav-link text-white btn btn-outline-success rounded-pill m-2" aria-current="page" href="tel:+917650015984">Call now</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white btn btn-outline-primary rounded-pill m-2" aria-current="page" href="mailto:arihant.nahan@gmail.com">Email us</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#resume">Resume</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#contact">Contact</a>
+          </li>
       </ul>
-    </div>
-  </div>
-</nav>
 
- <div class="header" id="home">
-   <div class="header-text text-center">
-    <h1 class="text-capitalize mx-auto text-white display-4 animate__animated animate__rubberBand"><sup>❝</sup> welcome to arihant international school <sup>❞</sup></h1>
-    <h1 class="text-white text-capitalize">best school for <span class="type"></span></h1><hr class="mx-auto text-white w-25">
+      </div>
+    </div>
+  </nav>
+<!---------------------header------------------------------------------------------------------------------------------>
+  <div class="header" id="home">
+   <div class="header-text">
+    <h1 class="text-capitalize mx-auto text-white display-1 animate__animated animate__rubberBand"><sup>❝</sup> welcome to my portfolio<sup>❞</sup></h1>
+    <h1 class="text-white">I❜m <span class="type" data-typed-items="Designer, WebDeveloper, Freelancer,"></span></h1><hr class="mx-auto text-white w-25">
     <div>
     <h1 class="animate__animated animate__bounceInDown animate__slower"><a href="#about" class="display-4" style="text-decoration: none; color: white">︾</a></h1></div>
     </div>
     
   </div>
 
-<section class="my-5" id="about">
-  <div>
-    <h5 class="display-6 text-capitalize text-center">about us</h5><hr class="w-25 mx-auto">
-  </div>
-</section>
+<!--about me-->
+  <section id="about">
+        <div class="container py-5">
+          <div class="">
+            <h2 class="display-6 text-center">About Me</h2>
+          </div>
+          <span class="">
+            <h3 class="display-6 about-head">Personal Detail<sup>❜</sup>s.</h3><hr class="w-25 mx-auto">
+            </span>        
+          <div class="row">
+          <div class="col-10 col-md-4 col-xl-4 col-xxl-4 mx-auto ">
+            <ul><li>
+            <figure data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+              <img src="image.png" class="img-fluid mx-auto" style="width: 250px;" alt="">
+            </figure></li></ul>
+          </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-10 col-md-6 col-xl-6 mx-auto"data-aos="flip-left" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-      <h5 class="text-capitalize display-6 text-center">Welcome to ARIHANT INTERNATIONAL SCHOOL, NAHAN</h5>
-<figure>
-  <img src="about.jpg" class="img-fluid">
-</figure>
+            <div class="col-10 col-md-4 col-xl-4 col-xxl-4 mx-auto">
+              <ul data-aos="flip-left" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true"> 
+                <li class="my-3">⫸ <strong>Birthday:</strong> 6 June, 1997</li>
+                <li class="my-3">⫸ <strong>Phone:</strong><a href="tel:+918219918486"> +91 8219918486</a></li>
+                <li class="my-3">⫸ <strong>City:</strong> Nahan, INDIA</li>
+                <li class="my-3">⫸ <strong>Age:</strong> 23</li>
+              </ul>
+            </div>
+
+              <div class="col-10 col-md-4 col-xl-4 col-xxl-4 mx-auto">
+            <ul data-aos="flip-right" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+              <li class="my-3">⫸ <strong>Degree:</strong> Master</li>
+              <li class="my-3">⫸ <strong>Email:</strong> <a href="mailto:skanishk885@gmail.com">skanishk885@gmail.com</a></li>
+              <li class="my-3">⫸ <strong>Freelance:</strong> Available</li>
+            </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End About Section -->
+<!--resume-->
+  <section id="resume" class="bg-light ">
+    <div class="container resume p-5">
+
+       <h3 class="text-uppercase text-center mb-5"><b>resume</b></h3>
+
+      <h5 class="text-uppercase pt-5"><b>Experience</b></h5><hr class="w-25">
+      <div class="row">
+        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+         <div data-aos="slide-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+           <h5 class="text-capitalize"><b>PGT teacher computer science</b></h5>
+           <p class="text-muted">(2021-Present)</p>
+         </div>
+         </div>
+
+        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+          <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+          <h5 class="text-capitalize"><i class="fas fa-briefcase"></i> arihant international school,nahan</h5>
+          <div class="resume-content">
+            <p class="text-capitalize text-muted">working as pgt teacher of computer science in <strong class="text-uppercase"><em>arihant international school & mata padmawati college of nursing</em></strong>.</p>
+          </div>
+
+        </div>
+      </div>
+
+         <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+         <div data-aos="slide-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+           <h5 class="text-capitalize"><b>internship in web devlopment</b></h5>
+           <p class="text-muted">(2021-Present)</p>
+         </div>
+         </div>
+
+      <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+          <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+          <h5 class="text-capitalize"><i class="fas fa-briefcase"></i> thinkNEXT</h5>
+          <div class="resume-content">
+          <p class="text-muted text-capitalize">completed 6 month internship in web devlopment from<strong class="text-uppercase"><em> ThinkNEXT Technologies - Industrial Training Internship Chandigarh Mohali</em></strong></p>
+        </div>
+        </div>
+
+      </div>
+
+     
+      <h5 class="text-uppercase pt-5"><b>Education</b></h5><hr class="w-25">
+      <div class="row">
+        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+         <div data-aos="slide-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+          
+           <h5 class="text-capitalize"><b>master of computer application</b></h5>
+           <p class="text-muted">(2019-Present)</p>
+         </div>
+         </div>
+         
+         <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+          <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true"> 
+          <h5 class="text-capitalize"><i class="fas fa-graduation-cap "></i> bahra university</h5>
+          <div class="resume-content"><p class="text-muted">I am pursuing <strong><em>Master</em></strong> from <strong><em>Bahra University</em></strong>, affilated from <strong>HPU</strong> <em>(Himachal Pradesh University)</em>.</p></div>
+        </div>
+        </div>
+
+        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+          <div data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+          <h5 class="text-capitalize"><b>bachelor of computer application</b></h5>
+          <p class="text-muted">(2016-2019)</p>
+        </div>
+        </div>
+
+        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+          <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+          <h5 class="text-capitalize"><i class="fas fa-graduation-cap"></i> govt. p.g. college,nahan</h5>
+          <div class="resume-content"><p class="text-muted">I have completed my graduation in Bachelor of Computer Application (BCA) from<strong><em> Govt.P.G. College Nahan</em></strong> with 6.41<sup>Cgpa</sup>, affilated from <strong>HPU</strong> <em>(Himachal Pradesh University)</em>.</p></div>
+        </div>
+        </div>
+
+         <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+        <div data-aos="fade-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+          <h5 class="text-capitalize"><b>Higher & Secondary Schooling</b></h5>
+          <p class="text-muted">(2014-2016)</p>
+        </div>
+      </div>
+        <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto">
+          <div data-aos="fade-down" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
+              <h5 class="text-capitalize "><i class="fas fa-graduation-cap  "></i> holy heart sen. sec. school,nahan</h5>
+              <div class="resume-content">
+                <p class="text-muted">
+                 I have completd my Higher & Secondary study from<strong> <em>Holy Heart School,Nahan</em></strong> and scored <em>6.8<sup>Cgpa</sup> and 63<sup>%</sup></em> respectively.</p>
+              </div>
+          </div>
+        </div>
+    <div class="container py-3 mx-auto resume-button">
+    <a class="btn btn-outline-dark btn-lg rounded-pill animate__animated animate__pulse animate__infinite animate__fast" href="resume.pdf" target="-"style="text-decoration: none;">Download Resume</a>
+  </div>
+      </div>
     </div>
 
-    <div class="col-10 col-md-6 col-xl-6 mx-auto"data-aos="flip-right" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-      <p class="text-capitalize">The Arihant international School is one of the premier residential cum day boarding schools at Nahan Distt. Sirmour. It is a co-education English medium school. The school is situated 4kms away from Nahan town, is situated in God’s gifted natural and peaceful environment. Nahan is known for its picturesque surroundings and marvelous views of the Himalayan Mountains.<strong><em> The school is registered under the Management of Mata Padmawati Educational Society, Nahan. The society under the dynamic leadership of Sh.Anil Jain, Chairman & Mr. Sachin Jain, General Secretary</em></strong>
+  </section>
+<!--skills-->
+  <section id="">
+    <div class="container">
+      <h3 class="display-6 mt-3">Skill<sup>❜</sup>s</h3><hr class="w-25">
 
-The main purpose to join this school is to provide the education to the students with an ideal environment to develop their intellectual and creative energy.
+        <div class="row">
+      <div class="col-10 col-md-6 col-xl-6 col-xxl-6 mx-auto gx-5">
+      <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">html</h5>
+        <div class="progress my-3">
+          <div class="progress-bar  progress-bar-striped progress-bar-animated bg-dark" style="width:90%">90%</div>
+        </div>
+        </div>
+      
+      <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+      <h5 class="text-uppercase">css</h5>
+        <div class="progress my-3">
+          <div class="progress-bar  progress-bar-striped progress-bar-animated bg-dark" style="width:90%">90%</div>
+        </div>
+        </div>
 
-In view of the above, Management has started regular 6th to 10<sup>th</sup>, 10<sup>+1</sup> & 10<sup>+2</sup> science (Medical / Non-Medical stream,Arts & Commerce) affiliated to<strong> H.P Board, Dharmasala.</strong> This school offers excellent quality of education and focuses primarily on the all-round development of the child.</p>
-<div class="container py-3 mx-auto resume-button">
-    <a class="btn btn-outline-dark btn-lg rounded-pill text-capitalize animate__animated animate__pulse animate__infinite animate__fast" href="https://forms.office.com/Pages/ResponsePage.aspx?id=qnpW-x924U-mFhXj5VWesjgmS5fUP6hJt9mhlO6cf29UNTUyUzVZQUlJTzI5WFpFMDJUSFBBSjlSVS4u" target="-"style="text-decoration: none;">click here for admission!!</a>
-  </div>
+        <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+        <h5 class="text-uppercase">Bootstrap</h5>
+          <div class="progress my-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:90%">90%</div>
+        </div>
+        </div>
+      </div>
 
+        <div class="col-10 col-xl-6 col-xxl-6 col-md-6 mx-auto gx-5">
+          
+          <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+          <h5 class="text-uppercase">javascript</h5>
+          <div class="progress my-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">40%</div>
+        </div>
+        </div>
+
+        <div data-aos="flip-up" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+        <h5 class="text-uppercase">php</h5>
+          <div class="progress my-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:50%">40%</div>
+        </div>
+        </div>
+
+        <div data-aos="flip-down" data-aos-duration="4000" data-aos-offset="300"  data-aos-once="true">
+        <h5 class="text-uppercase">mysql</h5>
+          <div class="progress my-3">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:50%">50%</div>
+        </div>
+        </div>
     </div>
-  </div>
-</div>
-<section class="my-5" id="gallery">
-  <div class="container">
-    <h5 class="display-6 text-uppercase text-center mt-5">gallery</h5><hr class="w-25 mx-auto">
-    <div class="row">
-      <div class="col-10 col-md-4 col-xl-4 mx-auto"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <figure>
-          <img src="g1.jpg" class="img-fluid gallery-image">
-        </figure>
-      </div>
-
-      <div class="col-10 col-md-4 col-xl-4 mx-auto"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <figure>
-          <img src="g2.jpg" class="img-fluid gallery-image">
-        </figure>
-      </div>
-
-      <div class="col-10 col-md-4 col-xl-4 mx-auto"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <figure>
-          <img src="g3.jpg" class="img-fluid gallery-image">
-        </figure>
-      </div>
-
-      <div class="col-10 col-md-4 col-xl-4 mx-auto"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <figure>
-          <img src="g4.jpg" class="img-fluid gallery-image">
-        </figure>
-      </div>
-
-      <div class="col-10 col-md-4 col-xl-4 mx-auto"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <figure>
-          <img src="g5.jpg" class="img-fluid gallery-image">
-        </figure>
-      </div>
-
-      <div class="col-10 col-md-4 col-xl-4 mx-auto"data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="300"data-aos-once="true">
-        <figure>
-          <img src="g6.jpg" class="img-fluid gallery-image">
-        </figure>
-      </div>
     </div>
 
   </div>
-</section>
-
- </section>
+  </section>
   <!--count up-->
-  <section class="my-5 counterup-bg text-white bg-counter font-weight-bold">
+  <section class="my-5 counterup-bg text-white">
     <div class="container">
       <div class="row">
         
         <div class="col-10 col-md-2 col-xl-2 col-xxl-2 mx-auto">
           <div>
-          <p class=" text-center mt-5"><i class="fas fa-user-graduate fa-2x"></i><br></p>
-          <h2 class="text-center counter">570</h2>
-          <p class="text-center mb-5">Total student❜s</p>
+          <p class=" text-center mt-5"><i class="fas fa-project-diagram fa-2x"></i><br></p>
+          <h2 class="text-center counter">3</h2>
+          <p class="text-center mb-5">Project❜s</p>
         </div>
         </div>
 
@@ -382,17 +509,17 @@ In view of the above, Management has started regular 6th to 10<sup>th</sup>, 10<
 
         <div class="col-10 col-md-2 col-xl-2 col-xxl-2 mx-auto">
          <div>
-          <p class=" text-center mt-5"><i class="fas fa-chalkboard-teacher fa-2x"></i><br></p>
-          <h2 class="text-center"><span class="counter">50</span><span>+</span></h2>
-          <p class="text-center mb-5">faculty</p>
+          <p class=" text-center mt-5"><i class="fas fa-laptop-code fa-2x"></i><br></p>
+          <h2 class="text-center counter">10</h2>
+          <p class="text-center mb-5">Coding Language❜s</p>
         </div>
         </div>
 
         <div class="col-10 col-md-2 col-xl-2 col-xxl-2 mx-auto">
           <div>
-          <p class=" text-center mt-5"><i class="far fa-smile fa-2x"></i><br></p>
-          <h2 class="text-center"><span class="counter">100</span><span>+</span></h2>
-          <p class="text-center mb-5">Happy faimly</p>
+          <p class=" text-center mt-5"><i class="far fa-clock fa-2x"></i></p>
+          <h2 class="text-center counter">23</h2>
+          <p class="text-center mb-5">Age</p>
 
         </div>
         </div>
@@ -400,8 +527,8 @@ In view of the above, Management has started regular 6th to 10<sup>th</sup>, 10<
       </div>
     </div>
   </section>
-
-<section id="contact" class="my-5">
+  <!--contact-->
+  <section id="contact" class="my-5">
     <div class="container">
       <h2 class="display-6 text-capitalize mt-5 contact-form text-center">Get in touch</h2><hr class="w-25 mx-auto">
       <div class="row">
@@ -413,9 +540,9 @@ In view of the above, Management has started regular 6th to 10<sup>th</sup>, 10<
               <p class="text-capitalize"><strong>location</strong></p>
               <p class=""><i class="fas fa-map-marker-alt"></i> Nahan,Sirmaur,IN</p>
               <p class="text-capitalize"><strong>email</strong></p>
-              <p class=""><i class="fas fa-envelope"></i> <a href="mailto:arihant.nahan@gmail.com">arihant.nahan@gmail.com</a></p>
+              <p class=""><i class="fas fa-envelope"></i> <a href="mailto:skanishk885@gmail.com">skanishk885@gmail.com</a></p>
               <p class="text-capitalize"><strong>phone</strong></p>
-              <p class=""><i class="fas fa-phone-alt"></i> <a href="tel:+917650015984"> +91 7650015984</a></p>
+              <p class=""><i class="fas fa-phone-alt"></i> <a href="tel:+918219918486"> +91 8219918486</a></p>
               </div>
           </div>
           </div>
@@ -458,17 +585,16 @@ In view of the above, Management has started regular 6th to 10<sup>th</sup>, 10<
       </div>
     </div>
   </section>
+  <br>
 
-  <div class="icon-bar">
-  <a href="https://www.facebook.com/Arihant-International-School-Nahan-555822801474169" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="#" class="google"><i class="fa fa-google"></i></a> 
-  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  <!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/kanishk.sharma.5095" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://github.com/kanisk-kumar" class="google"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/kanishk-kumar-bbb3581b7/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/__kanishk97__/" class="youtube"><i class="fa fa-instagram"></i></a>
 </div>
-
-   <!--scroll top button-->
-   <br>
+  <!--scroll top button-->
   <div class="scroll-top">
     <i class='fas fa-chevron-circle-up mx-5 float-right'style="font-size:40px;" id="myButton" onclick="topFunction()"></i>
   </div>
@@ -478,41 +604,30 @@ In view of the above, Management has started regular 6th to 10<sup>th</sup>, 10<
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2020 Copyright:
-      <a class="text-white" href=""><em>www.arihantinternationalschool.com</em></a>
+      <a class="text-white" href=""><em>MyPortfolio.com</em></a>
     </div>
     <!-- Copyright -->
   </footer>
   </div>
+      <script type="" src="typed.js"></script>
+      <script type="text/javascript">
+        var typed = new Typed('.type', {
+    strings: ['Web Devloper', 'Freelancer','Designer'],
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!---navbar scroll color-->
-  <script type="text/javascript">
-  $(function () {
-  $(document).scroll(function () {
-    var $nav = $(".fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
-</script>
-<!--navbar change color when click on toggle button-->
-<script type="text/javascript">
-  $(".navbar-toggler").click(function(){
-$("nav").toggleClass("navbar-black");
-})
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
-
-  <script type="text/javascript">
-    $('.counter').counterUp({
-      delay: 10,
-      time: 1000,
-      triggerOnce:true
+      typeSpeed: 50,
+      backSpeed: 50,
+        loop :true
   });
   </script>
-
-  <!-------------------------------------------------------------------------top scroll button---------------------------------------------------------------->
+<!--AOS-->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            delay: 100, 
+           easing: 'ease'
+        });
+    </script>
+<!-------------------------------------------------------------------------top scroll button---------------------------------------------------------------->
   <script type="text/javascript">
     mybutton = document.getElementById("myButton");
 
@@ -520,7 +635,7 @@ $("nav").toggleClass("navbar-black");
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    if (document.body.scrollTop >  1 || document.documentElement.scrollTop > 1) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       mybutton.style.display = "block";
     } else {
       mybutton.style.display = "none";
@@ -533,34 +648,43 @@ $("nav").toggleClass("navbar-black");
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
   </script>
-<!--AOS-->
-   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript">
-        AOS.init({
-            delay: 100, 
-           easing: 'ease'
-        });
-    </script>
 
-    <script type="" src="typed.js"></script>
-      <script type="text/javascript">
-        var typed = new Typed('.type', {
-    strings: ['learning', 'education'," knowledge"],
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
 
-      typeSpeed: 50,
-      backSpeed: 50,
-        loop :true
+  <script type="text/javascript">
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000,
+      triggerOnce:true
   });
   </script>
-    <!-- Optional JavaScript; choose one of the two! -->
+<!---navbar scroll color-->
+  <script type="text/javascript">
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(".navbar-toggler").click(function(){
+$("nav").toggleClass("navbar-black");
+})
+</script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-  </body>
-</html>
+     <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+      -->
+    </body>
+  </html>
