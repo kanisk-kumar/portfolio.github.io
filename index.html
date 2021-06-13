@@ -255,6 +255,27 @@
     transition: background-color 2000ms linear;
     opacity: 80%;
 }
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: black !important;
+    color: white!important;
+  }
+  .card{
+    background-color: black!important;
+  }
+  .btn-outline-dark{
+    color: white!important;
+  }
+
+  .resume-content{  
+            padding: 0 0 0px 20px;
+            border-left: 1px solid white!important;
+          }
+  #myButton {
+            color: white !important;
+          }
+  
+}
   </style>
     </head>
     <body>
@@ -335,7 +356,7 @@
         </div>
       </section><!-- End About Section -->
 <!--resume-->
-  <section id="resume" class="bg-light ">
+  <section id="resume" class="">
     <div class="container resume p-5">
 
        <h3 class="text-uppercase text-center mb-5"><b>resume</b></h3>
